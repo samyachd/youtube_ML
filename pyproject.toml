@@ -9,10 +9,13 @@ package-mode = false
 [tool.poetry.dependencies]
 python = "^3.12"
 plotly = "^6.3.0"
-numpy = "^2.3.2"
+numpy = ">=1.26,<1.28"
 pandas = "^2.3.2"
 ipykernel = "^6.30.1"
-seaborn = "^0.13.2"
+seaborn = ">=0.13,<0.14.2"
+notebook = "^7.4.5"
+scipy = ">=1.11,<1.13"
+matplotlib = ">=3.8,<3.9"
 
 
 [tool.poetry.group.dev.dependencies]
