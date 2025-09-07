@@ -13,6 +13,10 @@ numpy = "^2.3.2"
 pandas = "^2.3.2"
 ipykernel = "^6.30.1"
 seaborn = "^0.13.2"
+datetime = "^5.5"
+scikit-learn = "^1.7.1"
+nbformat = "^5.10.4"
+xgboost = "^3.0.4"
 
 
 [tool.poetry.group.dev.dependencies]
